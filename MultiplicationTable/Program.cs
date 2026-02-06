@@ -1,4 +1,12 @@
-﻿namespace MultiplicationTable
+﻿/*
+Abel Doyle
+RCET 2265
+Spring Semester 2026
+BetterCalculator
+https://github.com/abeldoyl/MultiplicationTable.git
+*/
+
+namespace MultiplicationTable
 {
     internal class Program
     {
@@ -52,7 +60,7 @@
             {
                 for (int column = 1; column <= columns; column++)
                 {
-                    Console.Write((row * column).ToString().PadLeft(4));
+                    Console.Write((row * column).ToString().PadLeft(5));
                 }
                 Console.WriteLine();
             }
